@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DroneApp"
+             x:Class="DroneApp.Cursos"
+             BackgroundColor="BurlyWood">
+
+    <ListView x:Name="CursosView" ItemsSource="TweetFeed">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell Text="{Binding Tweet}"
+                                     Detail="{Binding Author}"
+                                     ImageSource="{Binding ImageUrl}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

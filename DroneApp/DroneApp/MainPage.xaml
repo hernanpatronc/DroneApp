@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DroneApp"
+             x:Class="DroneApp.MainPage"
+             BackgroundColor="BurlyWood"
+              Title="DronesVIP">
+    <ContentPage Title="1">
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.33*" />
+                <RowDefinition Height="0.33*" />
+                <RowDefinition Height="0.33*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Button Opacity="0.5" Grid.Column="0" Grid.Row="0" Image="recurso.png" Clicked="OnHome"/>
+            <Button Opacity="0.5" Grid.Column="1" Grid.Row="0" Image="alumnos.png"/>
+            <Button Opacity="0.5" Grid.Column="0" Grid.Row="1" Image="drones.png" Clicked="OnANAC"/>
+            <Button Opacity="0.5"  Grid.Column="1" Grid.Row="1" Image="eanas.png" Clicked="OnEANA"/>
+            <Button Opacity="0.5"  Grid.Column="0" Grid.Row="2" Image="cursos.png" Clicked="OnCursos"/>
+            <Button Opacity="0.5" Grid.Column="1" Grid.Row="2" Image="videos.png"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="2">
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.33*" />
+                <RowDefinition Height="0.33*" />
+                <RowDefinition Height="0.33*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Button Opacity="0.5" Grid.Column="0" Grid.Row="0" Image="galeria.png"/>
+            <Button Opacity="0.5" Grid.Column="1" Grid.Row="0" Image="mapas.png"/>
+            <Button Opacity="0.5" Grid.Column="0" Grid.Row="1" Image="pilotos.png"/>
+            <Button Opacity="0.5"  Grid.Column="1" Grid.Row="1" Image="perfil.png" />
+            <Button Opacity="0.5"  Grid.Column="0" Grid.Row="2" Image="contactos.png" />
+        </Grid>
+    </ContentPage>
+</CarouselPage>

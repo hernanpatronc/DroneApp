@@ -1,0 +1,13 @@
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\bin\Release\DroneApp.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\bin\Release\DroneApp.pdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.MainPage.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.App.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.Cursos.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.Maps.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.Login.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.Documentos.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.PdfsList.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.Regist.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.pdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Release\DroneApp.csprojResolveAssemblyReference.cache

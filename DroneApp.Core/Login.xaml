@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DroneApp"
+             x:Class="DroneApp.LoginPage"
+             BackgroundColor="BurlyWood"
+             Title="DronesVIP">
+    <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+            <Label Text="Login" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="Dni" Placeholder="DNI"/>
+            <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
+            <Button Text="Ingresar" TextColor="White"  BackgroundColor="Green" Clicked="OnLogin"/>
+        <Button Text="Registrarme"  TextColor="White" BackgroundColor="Red" Clicked="OnRegister"/>
+    </StackLayout>
+ </ContentPage>

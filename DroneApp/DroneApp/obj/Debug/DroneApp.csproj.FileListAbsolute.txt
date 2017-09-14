@@ -1,0 +1,13 @@
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\bin\Debug\DroneApp.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\bin\Debug\DroneApp.pdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.MainPage.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.App.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.Cursos.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.Maps.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.Login.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.Documentos.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.PdfsList.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.Regist.xaml.g.cs
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.pdb
+C:\Users\Hernan\Documents\Visual Studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DroneApp"
+             x:Class="DroneApp.RegisterPage"
+             BackgroundColor="BurlyWood"
+             Title="DronesVIP">
+    <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+        <Label Text="Registro" FontSize="Large" HorizontalTextAlignment="Center"/>
+        <ActivityIndicator x:Name="loading" IsVisible="False" Color="Red"/>
+        <Entry x:Name="Name" Placeholder="Nombre y Apellido"/>
+        <Entry x:Name="Dni" Placeholder="DNI"/>
+        <Picker x:Name="Drone" Title="Tipo de Drone"/>
+        <Entry x:Name="Tel" Placeholder="Telefono"/>
+        <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
+        <Button Text="Registrarme"  TextColor="White" BackgroundColor="Red" Clicked="OnRegister"/>
+    </StackLayout>
+</ContentPage>
