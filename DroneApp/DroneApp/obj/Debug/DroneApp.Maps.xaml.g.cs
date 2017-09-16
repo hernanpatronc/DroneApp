@@ -11,9 +11,12 @@
 namespace DroneApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Hernan\\Documents\\Visual Studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Hernan\\documents\\visual studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\" +
         "Maps.xaml")]
     public partial class MapsPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button newZoneButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::DroneApp.CustomMap customMap;
@@ -21,6 +24,7 @@ namespace DroneApp {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MapsPage));
+            newZoneButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "newZoneButton");
             customMap = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::DroneApp.CustomMap>(this, "customMap");
         }
     }

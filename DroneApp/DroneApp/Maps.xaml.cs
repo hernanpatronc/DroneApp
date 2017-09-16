@@ -18,34 +18,22 @@ namespace DroneApp
         async void FillMap()
         {
             var circles = new List<CustomCircle>();
-
-            var position = new Position(-34.5, -58.6);
-            circles.Add(new CustomCircle
+            foreach (UserPositions userPosition in cUserPositions)
             {
-                Position = position,
-                Radius = 10000.0
-            });
-            var pin = new Pin
-            {
-                Type = PinType.Generic,
-                Position = position,
-                Label = "Zona1"
-            };
-            customMap.Pins.Add(pin);
-
-            var position2 = new Position(-34.3, -58.7);
-            circles.Add(new CustomCircle
-            {
-                Position = position2,
-                Radius = 10000.0
-            });
-            var pin2 = new Pin
-            {
-                Type = PinType.Generic,
-                Position = position2,
-                Label = "Zona2"
-            };
-            customMap.Pins.Add(pin2);
+                var position = new Position(userPosition.Lat, userPosition.Long);
+                circles.Add(new CustomCircle
+                {
+                    Position = position,
+                    Radius = userPosition.Radius
+                });
+                var pin = new Pin
+                {
+                    Type = PinType.Generic,
+                    Position = position,
+                    Label = userPosition.Name
+                };
+                customMap.Pins.Add(pin);
+            }
             customMap.Circles = circles;
             var userPosTable = MobileService.GetTable<UserPositions>();
             var userPosList = await userPosTable.Where((userPos) => userPos.IsUser).ToListAsync();
@@ -105,11 +93,20 @@ namespace DroneApp
             
             
             customMap.MoveToRegion(MapSpan.FromCenterAndRadius(uPos, Distance.FromMiles(10.0)));
+           
         }
         Users cUser;
-        internal MapsPage(Users user)
+        List<UserPositions> cUserPositions;
+        internal MapsPage(Users user, List<UserPositions> userPos)
         {
+            cUser = user;
+           
             InitializeComponent();
+            if (user.Dni == "00000000")
+            {
+                newZoneButton.IsVisible = true;
+            }
+            cUserPositions = userPos;
             CrossGeolocator.Current.PositionChanged += async (sender, e) => {
                 var pos = e.Position;
 
@@ -117,11 +114,11 @@ namespace DroneApp
                 cUserPos.Long = pos.Longitude;
                 await MobileService.GetTable<UserPositions>().UpdateAsync(cUserPos);
             };
-           
-           
-            cUser = user;
-            
             FillMap();
+        }
+        public async void OnNewZone(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewZone());
         }
     }
     public class CustomCircle

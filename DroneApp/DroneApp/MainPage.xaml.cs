@@ -11,10 +11,12 @@ namespace DroneApp
 {
     public partial class MainPage : CarouselPage
     {
+        List<UserPositions> cUserPositions;
         Users cUser;
-        internal MainPage(Users user)
+        internal MainPage(Users user, List<UserPositions> userPos)
         {
             cUser = user;
+            cUserPositions = userPos;
             InitializeComponent();
         }
         void OnCursos(object sender, EventArgs args)
@@ -35,7 +37,7 @@ namespace DroneApp
         }
         void OnEANA(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new MapsPage(cUser));
+            Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
         }
         void OnVideos(object sender, EventArgs args)
         {

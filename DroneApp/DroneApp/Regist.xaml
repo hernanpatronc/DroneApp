@@ -9,9 +9,9 @@
         <Label Text="Registro" FontSize="Large" HorizontalTextAlignment="Center"/>
         <ActivityIndicator x:Name="loading" IsVisible="False" Color="Red"/>
         <Entry x:Name="Name" Placeholder="Nombre y Apellido"/>
-        <Entry x:Name="Dni" Placeholder="DNI"/>
+        <Entry x:Name="Dni" Placeholder="DNI" Keyboard="Numeric"/>
         <Picker x:Name="Drone" Title="Tipo de Drone"/>
-        <Entry x:Name="Tel" Placeholder="Telefono"/>
+        <Entry x:Name="Tel" Placeholder="Telefono" Keyboard="Telephone"/>
         <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
         <Button Text="Registrarme"  TextColor="White" BackgroundColor="Red" Clicked="OnRegister"/>
     </StackLayout>

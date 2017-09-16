@@ -11,3 +11,4 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.pdb
 C:\Users\Hernan\Documents\Visual Studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.csprojResolveAssemblyReference.cache
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp\obj\Debug\DroneApp.NewZone.xaml.g.cs

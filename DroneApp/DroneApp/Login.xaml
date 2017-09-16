@@ -8,7 +8,7 @@
     <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
             <Label Text="Login" FontSize="Large" HorizontalTextAlignment="Center"/>
             <ActivityIndicator x:Name="loading" IsVisible="False" Color="Red"/>
-            <Entry x:Name="Dni" Placeholder="DNI"/>
+            <Entry x:Name="Dni" Placeholder="DNI" Keyboard="Numeric"/>
             <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
             <Button Text="Ingresar" TextColor="White"  BackgroundColor="Green" Clicked="OnLogin"/>
         <Button Text="Registrarme"  TextColor="White" BackgroundColor="Red" Clicked="OnRegister"/>

@@ -5,7 +5,7 @@
              x:Class="DroneApp.MainPage"
              BackgroundColor="BurlyWood"
               Title="DronesVIP">
-    <ContentPage Title="1">
+    <ContentPage Title="1" BackgroundColor="BurlyWood">
         <Grid Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.33*" />
@@ -24,7 +24,7 @@
             <Button Opacity="0.5" Grid.Column="1" Grid.Row="2" Image="videos.png"/>
         </Grid>
     </ContentPage>
-    <ContentPage Title="2">
+    <ContentPage Title="2" BackgroundColor="BurlyWood">
         <Grid Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.33*" />

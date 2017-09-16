@@ -119,3 +119,4 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.iOS\obj\iPhoneSimulator\Debug\DroneApp.iOS.csproj.DroneApp.iOS.exe.config
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.iOS\obj\iPhoneSimulator\Debug\DroneApp.iOS.exe
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.iOS\obj\iPhoneSimulator\Debug\DroneApp.iOS.pdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.iOS\obj\iPhoneSimulator\Debug\optimized\recurso.png

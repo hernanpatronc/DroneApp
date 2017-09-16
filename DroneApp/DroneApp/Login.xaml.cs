@@ -39,7 +39,11 @@ namespace DroneApp
                     
             }
             if (logged)
-                await Navigation.PushAsync(new MainPage(cUser));
+            {
+                List<UserPositions> listUserPos = await MobileService.GetTable<UserPositions>().Where((userPos) => !(userPos.IsUser)).ToListAsync();
+                await Navigation.PushAsync(new MainPage(cUser,listUserPos));
+            }
+                
             else
                 await DisplayAlert("Login", "Dni o password incorrecto", "Ok");
             loading.IsVisible = false;

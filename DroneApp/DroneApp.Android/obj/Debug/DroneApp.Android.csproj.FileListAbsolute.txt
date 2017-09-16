@@ -141,3 +141,13 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\res\drawable-xxhdpi\dronesvip.png
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\R.cs.flag
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\uploadflags.txt
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\bin\Debug\DroneApp.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\bin\Debug\DroneApp.Android.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\DroneApp.Android.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\DroneApp.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

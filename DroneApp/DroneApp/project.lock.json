@@ -711,10 +711,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hernan\\Documents\\Visual Studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\DroneApp.csproj",
+      "projectUniqueName": "C:\\Users\\Hernan\\documents\\visual studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\DroneApp.csproj",
       "projectName": "DroneApp",
-      "projectPath": "C:\\Users\\Hernan\\Documents\\Visual Studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\DroneApp.csproj",
-      "projectJsonPath": "C:\\Users\\Hernan\\Documents\\Visual Studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\project.json",
+      "projectPath": "C:\\Users\\Hernan\\documents\\visual studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\DroneApp.csproj",
+      "projectJsonPath": "C:\\Users\\Hernan\\documents\\visual studio 2017\\Projects\\DroneApp\\DroneApp\\DroneApp\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

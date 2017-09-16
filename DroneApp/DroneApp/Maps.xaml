@@ -7,6 +7,7 @@
              BackgroundColor="BurlyWood">
 
     <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="BurlyWood">
+        <Button x:Name="newZoneButton" Clicked="OnNewZone" Text="Nueva Zona no-vuelo" IsVisible="False"></Button>
         <local:CustomMap x:Name="customMap" MapType="Street" WidthRequest="500" HeightRequest="1000" />
     </StackLayout>
 

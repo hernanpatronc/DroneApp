@@ -39,6 +39,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewZone.xaml.cs">
+      <DependentUpon>NewZone.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Regist.xaml.cs">
       <DependentUpon>Regist.xaml</DependentUpon>
     </Compile>
@@ -109,6 +112,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Regist.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NewZone.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

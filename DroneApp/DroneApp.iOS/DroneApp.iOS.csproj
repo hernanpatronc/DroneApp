@@ -202,7 +202,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\recurso.png" />
+    <BundleResource Include="Resources\recurso.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\alumnos.png" />

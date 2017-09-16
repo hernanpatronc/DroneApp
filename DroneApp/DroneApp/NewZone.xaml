@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DroneApp"
+             x:Class="DroneApp.NewZone"
+             BackgroundColor="BurlyWood"
+             Title="DronesVIP">
+    <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+        <Label Text="Nueva Zona de no-vuelo" FontSize="Large" HorizontalTextAlignment="Center"/>
+        <ActivityIndicator x:Name="loading" IsVisible="False" Color="Red"/>
+        <Entry x:Name="Name" Placeholder="Nombre"/>
+        <Entry x:Name="Lat" Placeholder="Latitud"/>
+        <Entry x:Name="Long" Placeholder="Longitud"/>
+        <Entry x:Name="Radius" Placeholder="Radio" Keyboard="Numeric"/>
+        <Button Text="Añadir"  TextColor="White" BackgroundColor="Red" Clicked="OnNewZone"/>
+    </StackLayout>
+</ContentPage>
