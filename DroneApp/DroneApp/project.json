@@ -10,7 +10,9 @@
     "Xam.Plugin.Geolocator": "4.0.1",
     "Xamarin.Build.Download": "0.4.3",
     "Xamarin.Forms": "2.3.4.270",
-    "Xamarin.Forms.Maps": "2.3.4.270"
+    "Xamarin.Forms.Maps": "2.3.4.270",
+    "ZXing.Net": "0.16.2",
+    "ZXing.Net.Mobile.Forms": "2.2.9"
   },
   "frameworks": {
     ".NETPortable,Version=v4.5,Profile=Profile49": {}

@@ -118,7 +118,7 @@ namespace DroneApp
         }
         public async void OnNewZone(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NewZone());
+            await Navigation.PushAsync(new NewZone(cUser,cUserPositions));
         }
     }
     public class CustomCircle

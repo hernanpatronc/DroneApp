@@ -5,7 +5,7 @@
              x:Class="DroneApp.PDFList"
              BackgroundColor="BurlyWood">
 
-    <ListView x:Name="PDFListView" ItemTapped="PDFListView_ItemTapped">
+    <ListView x:Name="PDFListView" BackgroundColor="BurlyWood" ItemTapped="PDFListView_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ImageCell Text="{Binding Title}"

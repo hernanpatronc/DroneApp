@@ -24,6 +24,7 @@ namespace DroneApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             CurrentPlatform.Init();
             LoadApplication(new App());
             Xamarin.FormsMaps.Init();

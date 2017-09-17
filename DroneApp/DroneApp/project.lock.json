@@ -130,6 +130,41 @@
         "runtime": {
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10/Xamarin.Forms.Maps.dll": {}
         }
+      },
+      "ZXing.Net/0.16.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll": {},
+          "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.2.9": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.3.193",
+          "ZXing.Net.Mobile": "2.2.9"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll": {}
+        }
       }
     }
   },
@@ -689,6 +724,141 @@
         "xamarin.forms.maps.2.3.4.270.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
+    },
+    "ZXing.Net/0.16.2": {
+      "sha512": "JBpiPNtgnwscGcRI5UpFXSJh/t/zuuxu5yElp6oMm07hBHs0IQgIa8fbgvcSKoPBKm2fyXas8zaYy9Lx4P0o4A==",
+      "type": "package",
+      "path": "zxing.net/0.16.2",
+      "files": [
+        "lib/MonoAndroid/zxing.monoandroid.dll",
+        "lib/MonoAndroid/zxing.monoandroid.pdb",
+        "lib/MonoAndroid/zxing.monoandroid.xml",
+        "lib/native/zxing.XML",
+        "lib/native/zxing.pdb",
+        "lib/native/zxing.pri",
+        "lib/native/zxing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.pdb",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net20/zxing.pdb",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.pdb",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net35/zxing.pdb",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.pdb",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net40/zxing.presentation.pdb",
+        "lib/net45/zxing.XML",
+        "lib/net45/zxing.dll",
+        "lib/net45/zxing.pdb",
+        "lib/net45/zxing.presentation.XML",
+        "lib/net45/zxing.presentation.dll",
+        "lib/net45/zxing.presentation.pdb",
+        "lib/net461/zxing.XML",
+        "lib/net461/zxing.dll",
+        "lib/net461/zxing.pdb",
+        "lib/net461/zxing.presentation.XML",
+        "lib/net461/zxing.presentation.dll",
+        "lib/net461/zxing.presentation.pdb",
+        "lib/net47/zxing.XML",
+        "lib/net47/zxing.dll",
+        "lib/net47/zxing.pdb",
+        "lib/net47/zxing.presentation.XML",
+        "lib/net47/zxing.presentation.dll",
+        "lib/net47/zxing.presentation.pdb",
+        "lib/netstandard1.0/zxing.dll",
+        "lib/netstandard1.0/zxing.pdb",
+        "lib/netstandard1.0/zxing.xml",
+        "lib/netstandard1.1/zxing.dll",
+        "lib/netstandard1.1/zxing.pdb",
+        "lib/netstandard1.1/zxing.xml",
+        "lib/netstandard1.3/zxing.dll",
+        "lib/netstandard1.3/zxing.pdb",
+        "lib/netstandard1.3/zxing.xml",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.pdb",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl3-wp/zxing.wp7.0.pdb",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4-wp71/zxing.wp7.1.pdb",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl4/zxing.sl4.pdb",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/sl5/zxing.sl5.pdb",
+        "lib/uap10/zxing.dll",
+        "lib/uap10/zxing.pdb",
+        "lib/uap10/zxing.pri",
+        "lib/uap10/zxing.xml",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8-managed/zxing.winrt.pdb",
+        "lib/windows8/zxing.XML",
+        "lib/windows8/zxing.pdb",
+        "lib/windows8/zxing.pri",
+        "lib/windows8/zxing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "lib/wp8/zxing.wp8.0.pdb",
+        "zxing.net.0.16.2.nupkg.sha512",
+        "zxing.net.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile/2.2.9": {
+      "sha512": "71nrm7nDenBJX9G044gQDwZC3BSiyxZSZ4ZHK/WzKPVGuGftlwcVmCWFFotgxqSn1256Vt2Okq4UniByjRwc+w==",
+      "type": "package",
+      "path": "zxing.net.mobile/2.2.9",
+      "files": [
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid403/ZXingNetMobile.dll",
+        "lib/MonoAndroid403/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXingNetMobile.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/zxing.portable.dll",
+        "lib/wp8/ZXing.Net.Mobile.Core.dll",
+        "lib/wp8/ZXingNetMobile.dll",
+        "lib/wp8/zxing.portable.dll",
+        "zxing.net.mobile.2.2.9.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.2.9": {
+      "sha512": "s7+iYSmQqD4nXq3o4fL4YAu3BpGNqE24Ak3Vug16mdjXs+kIkAw9kTtHFHzyGKwsuWP29Sz2hFdLiinwX5WTxQ==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.2.9",
+      "files": [
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid403/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/ZXing.Net.Mobile.Forms.dll",
+        "lib/wp8/ZXing.Net.Mobile.Forms.WindowsPhone.dll",
+        "lib/wp8/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.2.9.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -702,7 +872,9 @@
       "Xam.Plugin.Geolocator >= 4.0.1",
       "Xamarin.Build.Download >= 0.4.3",
       "Xamarin.Forms >= 2.3.4.270",
-      "Xamarin.Forms.Maps >= 2.3.4.270"
+      "Xamarin.Forms.Maps >= 2.3.4.270",
+      "ZXing.Net >= 0.16.2",
+      "ZXing.Net.Mobile.Forms >= 2.2.9"
     ],
     ".NETPortable,Version=v4.5,Profile=Profile49": []
   },
@@ -727,7 +899,9 @@
       "Xam.Plugin.Geolocator": "4.0.1",
       "Xamarin.Build.Download": "0.4.3",
       "Xamarin.Forms": "2.3.4.270",
-      "Xamarin.Forms.Maps": "2.3.4.270"
+      "Xamarin.Forms.Maps": "2.3.4.270",
+      "ZXing.Net": "0.16.2",
+      "ZXing.Net.Mobile.Forms": "2.2.9"
     },
     "frameworks": {
       "portable45-net45+wp8": {}

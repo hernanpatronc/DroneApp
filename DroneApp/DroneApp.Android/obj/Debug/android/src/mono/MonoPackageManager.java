@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "DroneApp.Android.dll" comes first in this list. */
 		"DroneApp.Android.dll",
 		"DroneApp.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.WindowsAzure.Mobile.dll",
 		"Microsoft.WindowsAzure.Mobile.Ext.dll",
@@ -143,6 +144,12 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Base.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
+		"zxing.monoandroid.dll",
+		"ZXing.Net.Mobile.Core.dll",
+		"ZXing.Net.Mobile.Forms.Android.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"zxing.portable.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

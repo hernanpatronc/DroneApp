@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using ZXing.Net.Mobile.Forms;
 
 namespace DroneApp
 {
@@ -39,9 +40,28 @@ namespace DroneApp
         {
             Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
         }
-        void OnVideos(object sender, EventArgs args)
+        void Button_Clicked(object sender, EventArgs args)
         {
 
+        }
+
+        private async void OnVideos(object sender, EventArgs e)
+        {
+            var scanPage = new ZXingScannerPage();
+
+            scanPage.OnScanResult += (result) => {
+                // Stop scanning
+                scanPage.IsScanning = false;
+
+                // Pop the page and show the result
+                Device.BeginInvokeOnMainThread(() => {
+                    Navigation.PopAsync();
+                    DisplayAlert("Esto fue lo escaneado", result.Text, "OK");
+                });
+            };
+
+            // Navigate to our scanner page
+            await Navigation.PushAsync(scanPage);
         }
     }
 }

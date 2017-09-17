@@ -1,5 +1,6 @@
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\DroneApp.Android.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\DroneApp.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\FastAndroidCamera.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.Ext.dll
@@ -43,6 +44,12 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Base.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Basement.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\zxing.monoandroid.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\ZXing.Net.Mobile.Core.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.Android.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\ZXing.Net.Mobile.Forms.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\zxing.portable.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\ZXingNetMobile.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\mscorlib.dll

@@ -12,11 +12,14 @@ namespace DroneApp
 {
     public partial class NewZone : ContentPage
     {
-        
+        List<UserPositions> cUserPositions;
+        Users cUser;
         public MobileServiceClient MobileService = new MobileServiceClient("https://dronevip.azurewebsites.net");
-        internal NewZone()
+        internal NewZone(Users user, List<UserPositions> userPositions)
         {
             InitializeComponent();
+            cUserPositions = userPositions;
+            cUser = user;
         }
         async void OnNewZone(object sender, EventArgs e)
         {
@@ -36,17 +39,21 @@ namespace DroneApp
             }
             if (Double.TryParse(Long.Text,out longi) && isLatCorrect)
             {
-               
-                await tableMobile.InsertAsync(new UserPositions
+                UserPositions newUserPos = new UserPositions
                 {
                     Name = Name.Text,
                     Lat = lat,
                     Long = longi,
                     Radius = Double.Parse(Radius.Text),
                     IsUser = false
-                });
+                };
+                await tableMobile.InsertAsync(newUserPos);
+                cUserPositions.Add(newUserPos);
                 await DisplayAlert("Nueva Zona", "Correctamente añadida", "Ok");
                 await Navigation.PopAsync();
+                await Navigation.PopAsync();
+                await Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
+               // Navigation.RemovePage(Navigation.NavigationStack.)
             }
             else
             {
