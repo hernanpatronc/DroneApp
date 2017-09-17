@@ -66,6 +66,7 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
+C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
@@ -75,7 +76,6 @@ C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 C:\Users\Hernan\documents\visual studio 2017\Projects\DroneApp\DroneApp\DroneApp.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll

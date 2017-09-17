@@ -22,7 +22,7 @@
                 <Button Opacity="0.5" Grid.Column="0" Grid.Row="1" Image="drones.png" Clicked="OnANAC"/>
                 <Button Opacity="0.5"  Grid.Column="1" Grid.Row="1" Image="eanas.png" Clicked="OnEANA"/>
                 <Button Opacity="0.5"  Grid.Column="0" Grid.Row="2" Image="cursos.png" Clicked="OnCursos"/>
-                <Button Opacity="0.5" Grid.Column="1" Grid.Row="2" Image="videos.png"/>
+                <Button Opacity="0.5" Grid.Column="1" Grid.Row="2" Image="videos.png" Clicked="OnVideos"/>
             </Grid>
             <Image Source="beta.png" AbsoluteLayout.LayoutBounds="0,0,200,200"/>
         </AbsoluteLayout>

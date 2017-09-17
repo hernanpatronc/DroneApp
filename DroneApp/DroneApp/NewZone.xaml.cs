@@ -50,8 +50,9 @@ namespace DroneApp
                 await tableMobile.InsertAsync(newUserPos);
                 cUserPositions.Add(newUserPos);
                 await DisplayAlert("Nueva Zona", "Correctamente añadida", "Ok");
-                await Navigation.PopAsync();
-                await Navigation.PopAsync();
+                Navigation.RemovePage(Navigation.NavigationStack.ElementAt(Navigation.NavigationStack.Count - 2));
+                //await Navigation.PopAsync();
+               
                 await Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
                // Navigation.RemovePage(Navigation.NavigationStack.)
             }
