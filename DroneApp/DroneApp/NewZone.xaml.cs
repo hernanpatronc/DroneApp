@@ -12,13 +12,11 @@ namespace DroneApp
 {
     public partial class NewZone : ContentPage
     {
-        List<UserPositions> cUserPositions;
         Users cUser;
         public MobileServiceClient MobileService = new MobileServiceClient("https://dronevip.azurewebsites.net");
-        internal NewZone(Users user, List<UserPositions> userPositions)
+        internal NewZone(Users user)
         {
             InitializeComponent();
-            cUserPositions = userPositions;
             cUser = user;
         }
         async void OnNewZone(object sender, EventArgs e)
@@ -48,12 +46,11 @@ namespace DroneApp
                     IsUser = false
                 };
                 await tableMobile.InsertAsync(newUserPos);
-                cUserPositions.Add(newUserPos);
                 await DisplayAlert("Nueva Zona", "Correctamente añadida", "Ok");
-                Navigation.RemovePage(Navigation.NavigationStack.ElementAt(Navigation.NavigationStack.Count - 2));
-                //await Navigation.PopAsync();
+                //Navigation.RemovePage(Navigation.NavigationStack.ElementAt(Navigation.NavigationStack.Count - 2));
+                await Navigation.PopAsync();
                
-                await Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
+                //await Navigation.PushAsync(new MapsPage(cUser,cUserPositions));
                // Navigation.RemovePage(Navigation.NavigationStack.)
             }
             else
@@ -62,6 +59,16 @@ namespace DroneApp
             }
                 
            
+        }
+
+        private void Lat_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Lat.Text = Lat.Text.Replace(".", ",");
+        }
+
+        private void Long_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Long.Text = Long.Text.Replace(".", ",");
         }
     }
 }

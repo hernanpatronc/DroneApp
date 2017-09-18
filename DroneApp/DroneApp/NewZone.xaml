@@ -9,8 +9,8 @@
         <Label Text="Nueva Zona de no-vuelo" FontSize="Large" HorizontalTextAlignment="Center"/>
         <ActivityIndicator x:Name="loading" IsVisible="False" Color="Red"/>
         <Entry x:Name="Name" Placeholder="Nombre"/>
-        <Entry x:Name="Lat" Placeholder="Latitud"/>
-        <Entry x:Name="Long" Placeholder="Longitud"/>
+        <Entry x:Name="Lat" Placeholder="Latitud" TextChanged="Lat_TextChanged"/>
+        <Entry x:Name="Long" Placeholder="Longitud" TextChanged="Long_TextChanged"/>
         <Entry x:Name="Radius" Placeholder="Radio" Keyboard="Numeric"/>
         <Button Text="Añadir"  TextColor="White" BackgroundColor="Red" Clicked="OnNewZone"/>
     </StackLayout>

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -22,12 +23,12 @@ namespace DroneApp
         {
             loading.IsVisible = true;
             loading.IsRunning = true;
-            userList = await MobileService.GetTable<Users>().ToListAsync();
-            var logUser = new Users {
-                Dni = Dni.Text,
-                Password = Password.Text
+            //userList = await MobileService.GetTable<Users>().ToListAsync();
+            var logUser = new Dictionary<string,string> {
+                {"dni", Dni.Text },
+                {"password", Password.Text }
             };
-            bool logged = false;
+            /*bool logged = false;
             Users cUser = new Users();
             foreach(var user in userList)
             {
@@ -37,15 +38,20 @@ namespace DroneApp
                     logged = true;
                 }
                     
-            }
-            if (logged)
+            }*/
+            var cUser = new Users {
+                Dni = Dni.Text,
+                Password = Password.Text
+            };
+            var loginResult = await MobileService.InvokeApiAsync<UsersLoginResponse>("Users", HttpMethod.Get, logUser);
+            if (loginResult.authenticated)
             {
-                List<UserPositions> listUserPos = await MobileService.GetTable<UserPositions>().Where((userPos) => !(userPos.IsUser)).ToListAsync();
-                await Navigation.PushAsync(new MainPage(cUser,listUserPos));
+                //List<UserPositions> listUserPos = await MobileService.GetTable<UserPositions>().Where((userPos) => !(userPos.IsUser)).ToListAsync();
+                await Navigation.PushAsync(new MainPage(cUser));
             }
                 
             else
-                await DisplayAlert("Login", "Dni o password incorrecto", "Ok");
+                await DisplayAlert("Login", loginResult.error, "Ok");
             loading.IsVisible = false;
             loading.IsRunning = false;
         }

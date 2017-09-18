@@ -47,6 +47,7 @@ namespace DroneApp.Droid
 
             if (e.PropertyName.Equals("VisibleRegion") && !isDrawn)
             {
+                //if (circles != null)
                 foreach (var circle in circles)
                 {
                     var circleOptions = new CircleOptions();

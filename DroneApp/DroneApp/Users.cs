@@ -17,4 +17,16 @@ namespace DroneApp
         /*public float Lat { get; set; }
         public float Long { get; set; }*/
     }
+
+    class UsersLoginResponse
+    {
+        public bool authenticated { get; set; }
+        public string error { get; set; }
+    }
+
+    class UsersRegisterResponse
+    {
+        public bool success { get; set; }
+        public string error { get; set; }
+    }
 }

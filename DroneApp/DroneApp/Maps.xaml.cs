@@ -17,11 +17,12 @@ namespace DroneApp
         bool cUserPosExists = false;
         async void FillMap()
         {
-            var circles = new List<CustomCircle>();
+            customMap.Circles = new List<CustomCircle>();
+            cUserPositions = await MobileService.GetTable<UserPositions>().Where((userPos) => !(userPos.IsUser)).ToListAsync();
             foreach (UserPositions userPosition in cUserPositions)
             {
                 var position = new Position(userPosition.Lat, userPosition.Long);
-                circles.Add(new CustomCircle
+                customMap.Circles.Add(new CustomCircle
                 {
                     Position = position,
                     Radius = userPosition.Radius
@@ -34,7 +35,7 @@ namespace DroneApp
                 };
                 customMap.Pins.Add(pin);
             }
-            customMap.Circles = circles;
+            
             var userPosTable = MobileService.GetTable<UserPositions>();
             var userPosList = await userPosTable.Where((userPos) => userPos.IsUser).ToListAsync();
             foreach (var userPos in userPosList)
@@ -92,21 +93,21 @@ namespace DroneApp
             }
             
             
-            customMap.MoveToRegion(MapSpan.FromCenterAndRadius(uPos, Distance.FromMiles(10.0)));
+            
            
         }
         Users cUser;
         List<UserPositions> cUserPositions;
-        internal MapsPage(Users user, List<UserPositions> userPos)
+        internal MapsPage(Users user)
         {
             cUser = user;
-           
+
             InitializeComponent();
+            customMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(-34.5,-58.5), Distance.FromMiles(10.0)));
             if (user.Dni == "00000000")
             {
                 newZoneButton.IsVisible = true;
             }
-            cUserPositions = userPos;
             CrossGeolocator.Current.PositionChanged += async (sender, e) => {
                 var pos = e.Position;
 
@@ -115,11 +116,20 @@ namespace DroneApp
                 await MobileService.GetTable<UserPositions>().UpdateAsync(cUserPos);
             };
             FillMap();
+            
         }
         public async void OnNewZone(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NewZone(cUser,cUserPositions));
+            await Navigation.PushAsync(new NewZone(cUser));
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            //FillMap();
+            //UpdateChildrenLayout();
+        }
+
     }
     public class CustomCircle
     {
